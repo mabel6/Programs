@@ -1,5 +1,5 @@
-public class Hello{
-public static void main(String[]args){
-System.out.println("Hello Mabel, welcome to GitHub");
-}
-}
+class Hello{
+ public static void main(String args[]){
+  System.out.println("Welcome to java");
+   }
+  }
