@@ -31,4 +31,29 @@ public void mouseClicked(MouseEvent ev){
   fr.setVisible(true);
 }
 //implementation of mouseEntered method
-public void mouse
+public void mouseEntered(MouseEvent ev){
+  lbl2.setText("Mouse has entered the area of window");
+  fr.setVisible(true);
+} 
+//implementation of mouseExited method
+public void mouseExited(MouseEvent ev){
+  lbl2.setText("Mouse has left the area of window");
+  fr.setVisible(true);
+}
+//implementation of mousePressed method 
+  public void mousePressed(MouseEvent ev){
+    lbl2.setText("Mouse button is being pressed");
+  fr.setVisible(true);
+}
+//implementation of mouseReleased method
+  public void mouseReleased(MouseEvent ev){
+    lbl2.setText("Mouse Released");
+    fr.setVisible(true);
+  }
+ //main method
+  public static void main(String args[]){
+    new MouseListenerExample();
+  }
+}
+
+  
