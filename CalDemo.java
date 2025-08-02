@@ -6,3 +6,4 @@ public class CalDemo {
     System.out.println("Current Month = " + month[calendar.get(Calendar.MONTH)]);
   }
 }
+}
